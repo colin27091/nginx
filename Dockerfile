@@ -8,9 +8,5 @@ COPY ./*.js /usr/share/nginx/html/
 
 COPY ./*.css /usr/share/nginx/html/
 
-WORKDIR /etc/nginx
-
-CMD ["nginx"]
-
 EXPOSE 80
 EXPOSE 443
