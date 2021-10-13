@@ -1,0 +1,13 @@
+body {
+    display : flex;
+    justify-content: center;
+    align-items: middle;
+}
+
+.circle {
+    height: 100vmin;
+    width: 100vmin;
+    border-radius: 100%;
+    background-color: red;
+
+}
